@@ -1,0 +1,14 @@
+[Unit]
+Description=Binance Volatility Monitor Service
+After=network.target
+
+[Service]
+User=your_user
+Group=your_group
+WorkingDirectory=/path/to/your/binance_monitor
+ExecStart=/path/to/your/venv/bin/python main.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

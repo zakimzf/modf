@@ -1,0 +1,13 @@
+websockets
+supabase
+gotrue
+pandas
+apscheduler
+python-dotenv
+httpx
+python-telegram-bot
+
+# Testing
+pytest
+pytest-asyncio
+respx
